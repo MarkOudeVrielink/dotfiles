@@ -12,6 +12,10 @@ return {
       require "configs.lspconfig"
     end,
   },
+  {
+    "nuchs/vim-hypr-nav",
+    lazy = false
+  },
 
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
